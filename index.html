@@ -1,31 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/style.css">
-	<title>Document</title>
-</head>
-<body>
-	<div class="wrapper">
-		<div class="left-container">
-			<img class="avatar" src="/avatar.jpg" alt="">
-			<h1>Gayazutdinov Renat</h1>
-			<ul class="contacts">
-				<li>
-					<b>e-mail:</b> restspread@gmail.com
-				</li>
-				<li>
-					<b>phone:</b> +7 (921) 888-74-67
-				</li>
-				<li>
-					<b>in: </b><a href="https://www.linkedin.com/in/renat-gayazutdinov-07344a65/">https://www.linkedin.com/in/renat-gayazutdinov-07344a65/</a>
-				</li>
-			</ul>
-		</div>
-		<div class="right-container">
-
-		</div>
-	</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="left-container">
+        <img class="avatar" src="/avatar.jpg" alt="" />
+        <h1>Gayazutdinov Renat</h1>
+        <ul class="contacts">
+          <li><b>e-mail:</b> restspread@gmail.com</li>
+          <li><b>phone:</b> +7 (921) 888-74-67</li>
+          <li>
+            <b>in: </b
+            ><a href="https://www.linkedin.com/in/renat-gayazutdinov-07344a65/"
+              >https://www.linkedin.com/in/renat-gayazutdinov-07344a65/</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="right-container">
+        <div class="about">
+          <h2>About me</h2>
+          <p>
+            My goal is to work as a junior frontend-developer in a modern
+            developing company, solve interesting problems and improve my soft
+            skills. And most importantly, I like what I do.
+          </p>
+        </div>
+        <div class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS, SCSS, LESS</li>
+            <li>BEM</li>
+            <li>JS, JQuery</li>
+            <li>React (basics)</li>
+            <li>Golang (basics)</li>
+            <li>Photoshop, Figma, Zeplin</li>
+            <li>Git</li>
+          </ul>
+        </div>
+        <div class="code-examples">
+					<h2>Code examples</h2>
+					<pre><code>
+window.onscroll = function showHeader () {
+	let header = document.querySelector('.header-nav');
+	if (window.pageYOffset > 60) {
+		header.classList.add('header-nav-fix');
+	} else if (window.pageYOffset < 1) {
+		header.classList.remove('header-nav-fix');
+	}
+}
+					</code></pre>
+				</div>
+				<div class="education">
+					<h2>Education</h2>
+					<ul>
+						<li>HTML Academy. Professional HTML & CSS, level 1</li>
+						<li>HTML Academy. Professional HTML & CSS, level 2</li>
+						<li>ItGid. Онлайн IT курсы Лущенко Александра. JavaScript 2.0</li>
+						<li>SoloLearn. HTML, CSS, JavaScript, JQuery</li>
+					</ul>
+				</div>
+				<div class="english-level">
+					<h2>English level</h2>
+					<p>Elementary</p>
+				</div>
+      </div>
+    </div>
+  </body>
 </html>
